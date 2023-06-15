@@ -115,6 +115,13 @@ function App() {
 				<h1 className="text-center mb-5">E-Commerce Website</h1>
 				<ProductList />
 			</Container>
+			<hr className="bg-light" />
+			<footer className="text-center py-3">
+				<p>
+					Copyright &copy; {new Date().getFullYear()} Chang Wang Ngen.
+					Made with 💖 by Chang Wang Ngen.
+				</p>
+			</footer>
 		</div>
 	);
 }
